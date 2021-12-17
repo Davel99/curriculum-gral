@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h5{
+    font-weight: bold;
+}
+
+header, main, footer{
+    min-width: 100%;
+}
+
+
+
+body{
+    background:#1c1c1c;
+    overflow-x: hidden;
+}
+
+section{
+    min-width: 100%;
+}
+
+li { 
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+  
+li a {
+    display: block;
+    padding: 2em; 
+}
+
+
+a{
+    min-width: 100%;
+    min-height: 100%;
+    text-decoration: none;
+    color: white !important;
+}
+
+
+p{
+    text-align:justify !important;
+}

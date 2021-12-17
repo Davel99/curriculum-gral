@@ -1,0 +1,140 @@
+.bg-image{
+    min-width: 100%;
+    filter: blur(5px);
+}
+
+/* .centrado{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+#presentacion{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.presentacion{
+    background-image: url('../assets/images/bg-programmingV2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.icon{
+    width:300px;
+    height: auto;
+}
+
+.nombre{
+    font-size: 50px;
+}
+
+.titulo{
+    font-size: 20px;
+}
+
+.dashed-white{
+    border-top: 1px solid rgba(250, 250, 250, 0.5);
+    max-width: 90%;
+}
+
+
+/* COMIENZA EDICION DE LA SECCIÓN "ACERCA DE MI" */
+
+.transition-top{
+    padding-top: 100px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), #1c1c1c);
+}
+
+.transition-bottom{
+    padding-bottom: 100px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), #1c1c1c);
+}
+
+.tarjeta-presentacion * {
+    color: black !important;
+}
+
+.card-title, .card-text{
+    text-align: center !important;
+}
+
+.cursor-pointer:hover{
+    cursor: pointer !important;
+}
+
+
+.list-group-item:hover{
+    background: whitesmoke;
+    font-weight: bold;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 50px;
+    padding: 5px;
+    border: 5px solid #007bff
+}
+
+
+/* COMIENZA EDICION DE HABILIDADES  */
+
+#gear{
+    color: black !important;
+}
+
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+
+/* COMIENZA EDICION DE EXPERIENCIA */
+
+.img-carousel, .carousel-inner{
+    max-height: 700px !important;
+}
+  
+@media (max-width: 2000px) {
+    
+    .img-carousel, .carousel-inner{
+        height: 600px !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+    .img-carousel, .carousel-inner{
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .img-carousel, .carousel-inner{
+        height: 200px !important;
+    }
+}
+
+/* COMIENZA EDICION DE CERTIFICADOS */
+
+.img-certificado-div{
+    max-width: 200px;
+}
+
+.img-certificado{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
