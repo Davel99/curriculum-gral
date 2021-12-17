@@ -1,5 +1,4 @@
 window.onload = function () {
-
     // INTRODUCIENDO FECHA EN FOOTER
     var fecha = new Date();
     document.querySelector("#year").innerHTML = fecha.getFullYear();
@@ -17,12 +16,5 @@ window.onload = function () {
         });
 
     });
-}
-
-
-
-
-var objetos = {
-    presentacion: document.querySelector("#presentacion-anim")
 }
 
